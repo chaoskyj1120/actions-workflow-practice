@@ -12,12 +12,6 @@ jobs:
       contents: read
 
     steps:
-      - name: 빌드 및 테스트
-        run: ./gradlew clean build --no-daemon
-
-      - name: 빌드 산출물 확인
-        run: ls -R build/libs || true
-
       # 1) 소스 체크아웃
       - name: Checkout
         uses: actions/checkout@v3
