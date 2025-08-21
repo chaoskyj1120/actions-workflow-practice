@@ -2,7 +2,7 @@ name: AWS Connection & Secret Test
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "dev" ] #
 
 jobs:
   test:
