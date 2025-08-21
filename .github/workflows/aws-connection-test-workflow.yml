@@ -2,7 +2,7 @@ name: AWS Connection & Secret Test
 
 on:
   push:
-    branches: [ "dev" ] #
+    branches: [ "dev" ] #main 브런치에서 바꿈
 
 jobs:
   test:
