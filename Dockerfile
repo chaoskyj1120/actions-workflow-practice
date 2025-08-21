@@ -2,7 +2,7 @@
 FROM openjdk:17-jdk-slim
 
 # 작업 디렉토리 생성
-WORKDIR /.
+WORKDIR /ecs-practice-starter
 
 # JAR 파일 복사
 COPY build/libs/ecs-practice-starter-0.0.1-SNAPSHOT.jar app.jar
