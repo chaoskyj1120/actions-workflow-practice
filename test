@@ -1,0 +1,8 @@
+aws ecs update-service `
+  -- `
+  --my-springboot-task-service-mvp06tj3 `
+  --arn:aws:ecs:ap-northeast-2:846505724278:task/my-ecs-cluster-250821-05/78a2a371ddb84891ae398a421c521198
+
+aws ecs describe-tasks-definition `
+  --cluster my-ecs-cluster-250821-05 `
+  --tasks my-springboot-task-service-mvp06tj3
